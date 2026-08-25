@@ -1,0 +1,12 @@
+---
+description: Bootstrap Superpowers skills for this AutoClick workspace only
+alwaysApply: true
+---
+
+# Superpowers (this project only)
+
+This workspace vendors Superpowers 6.3.0 in `.cursor/skills/`. Do not change global Cursor settings or other projects.
+
+1. At session start, read and follow `.cursor/skills/using-superpowers/SKILL.md`.
+2. Before any task, check for a relevant skill in `.cursor/skills/` and follow it.
+3. Process skills come first: brainstorming before new features, systematic-debugging before bugfixes, verification-before-completion before claiming done.

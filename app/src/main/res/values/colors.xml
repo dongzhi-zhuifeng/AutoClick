@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#0041A5</color>
+    <color name="overlay_on_primary">#FFFFFF</color>
+    <color name="overlay_cancel">#636366</color>
+    <color name="overlay_pill_bg">#CC0041A5</color>
+    <color name="overlay_hint_bg">#CC1C1C1E</color>
+    <color name="overlay_confirm_bg">#E8EEF6</color>
+    <color name="marker_stroke">#0041A5</color>
+    <color name="marker_fill">#260041A5</color>
+</resources>

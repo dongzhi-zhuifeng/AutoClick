@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="picker_marker_size">24dp</dimen>
+    <dimen name="countdown_marker_size">24dp</dimen>
+    <dimen name="overlay_hint_top">60dp</dimen>
+    <dimen name="overlay_corner_hint">12dp</dimen>
+    <dimen name="overlay_corner_pill">12dp</dimen>
+    <dimen name="overlay_button_gap">16dp</dimen>
+    <dimen name="overlay_hud_gap">4dp</dimen>
+    <dimen name="space_xs">8dp</dimen>
+    <dimen name="space_sm">12dp</dimen>
+    <dimen name="space_md">16dp</dimen>
+</resources>

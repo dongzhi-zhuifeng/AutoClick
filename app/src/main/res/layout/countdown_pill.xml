@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pill_background"
+    android:paddingStart="@dimen/space_md"
+    android:paddingEnd="@dimen/space_md"
+    android:paddingTop="@dimen/space_xs"
+    android:paddingBottom="@dimen/space_xs">
+
+    <TextView
+        android:id="@+id/tvCountdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/countdown_pill_placeholder"
+        android:textColor="@color/overlay_on_primary"
+        android:textSize="14sp"/>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvCoords"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/brand_primary"
+        android:textSize="14sp"
+        android:paddingStart="@dimen/space_sm"
+        android:paddingEnd="@dimen/space_sm"
+        android:paddingTop="@dimen/space_xs"
+        android:paddingBottom="@dimen/space_xs"
+        android:background="@drawable/overlay_confirm_background"/>
+
+    <TextView
+        android:id="@+id/btnConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_position"
+        android:textColor="@color/brand_primary"
+        android:textSize="14sp"
+        android:paddingStart="@dimen/space_sm"
+        android:paddingEnd="@dimen/space_sm"
+        android:paddingTop="@dimen/space_xs"
+        android:paddingBottom="@dimen/space_xs"
+        android:background="@drawable/overlay_confirm_background"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <View
+        android:id="@+id/targetMarker"
+        android:layout_width="@dimen/picker_marker_size"
+        android:layout_height="@dimen/picker_marker_size"
+        android:background="@drawable/target_marker"
+        android:layout_gravity="center"/>
+
+</FrameLayout>

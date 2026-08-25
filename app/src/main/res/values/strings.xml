@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AutoClick</string>
+    <string name="accessibility_service_description">用于在指定时间自动执行屏幕点击操作</string>
+    <string name="countdown_pill_placeholder">即将自动点击：60秒</string>
+    <string name="cancel">取消</string>
+    <string name="confirm_position">确定位置</string>
+</resources>
