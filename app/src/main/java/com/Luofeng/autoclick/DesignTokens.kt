@@ -5,6 +5,7 @@ import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 
+/** 全局设计 token：颜色、圆角、间距、动效时长、字号。 */
 data class AppColorScheme(
     val Background: Color,
     val CardBackground: Color,

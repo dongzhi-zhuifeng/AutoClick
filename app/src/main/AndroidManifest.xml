@@ -32,11 +32,11 @@
         </activity>
 
         <service
-            android:name=".OverlayPointPickerService"
+            android:name=".overlay.OverlayPointPickerService"
             android:exported="false"/>
 
         <service
-            android:name=".ClickAccessibilityService"
+            android:name=".click.ClickAccessibilityService"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
             android:exported="true">
             <intent-filter>
@@ -47,12 +47,12 @@
                 android:resource="@xml/accessibility_service_config"/>
         </service>
 
-        <service android:name=".CountdownOverlayService" android:exported="false"/>
-        <receiver android:name=".PreAlarmReceiver" android:exported="false"/>
+        <service android:name=".overlay.CountdownOverlayService" android:exported="false"/>
+        <receiver android:name=".schedule.PreAlarmReceiver" android:exported="false"/>
 
-        <receiver android:name=".AlarmReceiver" android:exported="false"/>
+        <receiver android:name=".schedule.AlarmReceiver" android:exported="false"/>
 
-        <receiver android:name=".BootReceiver" android:exported="true">
+        <receiver android:name=".schedule.BootReceiver" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
             </intent-filter>

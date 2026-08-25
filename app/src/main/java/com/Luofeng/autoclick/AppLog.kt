@@ -2,6 +2,7 @@ package com.Luofeng.autoclick
 
 import android.util.Log
 
+/** 统一日志，事件名用 event= 前缀方便过滤。 */
 object AppLog {
     const val TAG = "AutoClick"
 

@@ -1,5 +1,6 @@
 package com.Luofeng.autoclick
 
+/** 关于页与加群对话框文案。 */
 object AppInfo {
     // 把这里改成你的真实群号
     const val GROUP_NUMBER = "772516935"

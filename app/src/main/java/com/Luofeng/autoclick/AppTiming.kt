@@ -1,5 +1,7 @@
 package com.Luofeng.autoclick
 
+
+
 /** Timing constants frozen at current production values. Do not change the numbers. */
 object AppTiming {
     const val PRE_ALARM_LEAD_MS = 30_000L

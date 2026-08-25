@@ -1,14 +1,9 @@
 *.iml
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+/.idea/
 .DS_Store
-/build
+build/
 /captures
 .externalNativeBuild
 .cxx
@@ -19,3 +14,9 @@ local.properties
 *.keystore
 *.jks
 .cxx/
+.kotlin/
+.cursor/
+.superpowers/
+docs/superpowers/
+AGENTS.md
+tools/_refactor_packages.py
